@@ -1,0 +1,116 @@
+/* не понял как убрать опасити у города и сделать норм бордер внешний не задавая каждому по отдельности */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #2f9acd;
+  border: 20px  solid #2782ae;
+  min-height: 100vh;
+  color: #ffffff;
+  transition: all .5s ease-in;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; /* он же платный? */
+}
+
+.container {
+  width: 50%;
+  margin: 25px auto;
+}
+
+main {
+  font-size: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  border: 3px solid #ffffff;
+}
+
+ul:hover li {
+  opacity: .5;
+}
+
+ul li:hover {
+  opacity: 1;
+  transition: all .5s ease-in;
+}
+
+ul li {
+  display: inline-block;
+  width: 25%;
+  border: 3px solid #ffffff;
+  font-size: 20px;
+  text-align: center;
+  padding: 30px;
+  line-height: 30px;
+  padding: -5px;
+}
+
+ul li span, .wi {
+  color: #d0e0e0; 
+}
+
+.wi-day-haze{
+  color: #ffffff;
+}
+
+ul li span:after {
+  content: "℃";
+  color: #d0e0e0;
+}
+
+
+ul li:nth-child(1) {
+  background-color: #2f9acd;
+  width: 50%;
+}
+
+ul li:nth-child(2) {
+  background-color: #2fcdcd;
+}
+
+ul li:nth-child(3) {
+  background-color: #9a669a;
+}
+
+ul li:nth-child(4) {
+  background-color: #c34545;
+}
+
+ul li:nth-child(5) {
+  background-color: #e36749;
+}
+
+ul li:nth-child(6) {
+  background-color: #ffcd66;
+}
+
+ul li:nth-child(7) {
+  background-color: #9acd9a;
+}
+
+ul li:nth-child(8) {
+  background-color: #669a9a;
+}
+
+ul li:nth-child(9) {
+  background-color: #cd669a;
+  width: 50%;
+}
+
+ul li:nth-child(10) {
+  background-color: #2f9a66;
+}
+
+ul li:nth-child(11) {
+  background-color: #66669a;
+  width: 100%;
+}
+
+footer {
+  font-size: 14px;
+  margin-top: 15px;
+}
